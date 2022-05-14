@@ -1,5 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
+import { PostCard } from './components/PostCard';
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -27,13 +28,10 @@ function App() {
     <section className="container">
       <div className="posts">
         {posts.map(post => (
-          <div className="post">
-            <img src={post.cover} alt={post.title} />
-            <div key={post.id} className="post-content">
-              <h1>{post.title}</h1>
-              <p>{post.body}</p>
-            </div>
-          </div>
+          <PostCard
+            key={post.id}
+            post={post}
+          />
         ))}
       </div>
     </section>
