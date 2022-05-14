@@ -1,4 +1,3 @@
-import './App.css';
 import { useEffect, useState } from 'react';
 import { loadPosts } from './utils/load-posts';
 import { Posts } from './components/Posts';
