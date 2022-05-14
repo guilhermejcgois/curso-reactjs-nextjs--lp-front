@@ -1,39 +1,22 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import { PostCard } from './components/PostCard';
+import { loadPosts } from './utils/load-posts';
+import { Posts } from './components/Posts';
 
 function App() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      const postsResponse = await fetch('https://jsonplaceholder.typicode.com/posts');
-      const photosResponse = await fetch('https://jsonplaceholder.typicode.com/photos');
-  
-      const posts = await postsResponse.json();
-      const photos = await photosResponse.json();
-
-      const addCover = (post, index) => ({
-        ...post,
-        cover: photos[index].url
-      });
-
-      setPosts(posts.map(addCover));
+    const loadData = async () => {
+      setPosts(await loadPosts());
     };
 
-    fetchData();
+    loadData();
   }, []);
 
   return (
     <section className="container">
-      <div className="posts">
-        {posts.map(post => (
-          <PostCard
-            key={post.id}
-            post={post}
-          />
-        ))}
-      </div>
+      <Posts posts={posts} />
     </section>
   );
 }
