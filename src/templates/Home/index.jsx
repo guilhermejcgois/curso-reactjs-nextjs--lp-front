@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import "./styles.css";
+import './styles.css';
 
-import { Posts } from "../../components/Posts";
-import { loadPosts } from "../../utils/load-posts";
-import { Button } from "../../components/Button";
-import { TextInput } from "../../components/TextInput";
+import { Posts } from '../../components/Posts';
+import { loadPosts } from '../../utils/load-posts';
+import { Button } from '../../components/Button';
+import { TextInput } from '../../components/TextInput';
 
 export const Home = () => {
   const [allPosts, setAllPosts] = useState([]);
@@ -14,7 +14,7 @@ export const Home = () => {
   const [page, setPage] = useState(0);
   const [posts, setPosts] = useState([]);
   const [postsPerPage] = useState(10);
-  const [searchValue, setSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState('');
 
   const loadMorePosts = () => {
     const nextPage = page + postsPerPage;
@@ -41,9 +41,8 @@ export const Home = () => {
   }, [page, postsPerPage, allPosts]);
 
   useEffect(() => {
-    const matchesTitle = ({title}) =>
-      title && title.toLowerCase().includes(searchValue.toLowerCase());
-    const filteredPosts = !!searchValue ? allPosts.filter(matchesTitle) : posts;
+    const matchesTitle = ({ title }) => title && title.toLowerCase().includes(searchValue.toLowerCase());
+    const filteredPosts = searchValue ? allPosts.filter(matchesTitle) : posts;
     setFilteredPosts(filteredPosts);
   }, [searchValue, allPosts, posts]);
 
@@ -60,13 +59,7 @@ export const Home = () => {
       {filteredPosts.length === 0 && <p>Não existem posts =(</p>}
 
       <div className="button-container">
-        {!searchValue && (
-          <Button
-            text="Load more posts"
-            onClick={loadMorePosts}
-            disabled={!hasMorePosts}
-          />
-        )}
+        {!searchValue && <Button text="Load more posts" onClick={loadMorePosts} disabled={!hasMorePosts} />}
       </div>
     </section>
   );

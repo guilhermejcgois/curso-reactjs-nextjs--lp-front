@@ -1,25 +1,21 @@
-import { render, screen } from "@testing-library/react";
-import { PostCard } from ".";
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import { PostCard } from '.';
 
-describe("<PostCard />", () => {
+describe('<PostCard />', () => {
   const post = {
-    title: "title 1",
-    body: "body 1",
+    title: 'title 1',
+    body: 'body 1',
     id: 1,
-    cover: "img/img.png",
+    cover: 'img/img.png',
   };
 
-  it("should render correctly", () => {
+  it('should render correctly', () => {
     render(<PostCard post={post} />);
 
-    expect(screen.getByRole("img", { name: /title 1/i })).toHaveAttribute(
-      "src",
-      "img/img.png"
-    );
-    expect(
-      screen.getByRole("heading", { name: /title 1/i })
-    ).toBeInTheDocument();
-    expect(screen.getByText("body 1")).toBeInTheDocument();
+    expect(screen.getByRole('img', { name: /title 1/i })).toHaveAttribute('src', 'img/img.png');
+    expect(screen.getByRole('heading', { name: /title 1/i })).toBeInTheDocument();
+    expect(screen.getByText('body 1')).toBeInTheDocument();
   });
 
   it('should match snapshot', () => {
