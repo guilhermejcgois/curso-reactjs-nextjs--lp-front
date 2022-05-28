@@ -13,7 +13,7 @@ export const Home = () => {
   const [hasMorePosts, setHasMorePosts] = useState(false);
   const [page, setPage] = useState(0);
   const [posts, setPosts] = useState([]);
-  const [postsPerPage] = useState(10);
+  const [postsPerPage] = useState(2);
   const [searchValue, setSearchValue] = useState('');
 
   const loadMorePosts = () => {
