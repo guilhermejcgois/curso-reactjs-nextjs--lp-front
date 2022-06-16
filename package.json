@@ -43,6 +43,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "jest-styled-components": "^7.0.8",
     "msw": "^0.41.1",
     "prettier": "^2.6.2"
   }
