@@ -7,9 +7,9 @@ import userEvent from '@testing-library/user-event';
 
 const handlers = [
   rest.get('*jsonplaceholder.typicode.com/*', async (req, res, ctx) => {
-    let count = 3;
+    let count = 0;
     const posts = [];
-    while (count > 0) {
+    while (count++ < 3) {
       posts.push({
         userId: count,
         id: count,
@@ -17,7 +17,6 @@ const handlers = [
         body: `body${count}`,
         img: `img${count}`,
       });
-      count--;
     }
     return res(ctx.json(posts));
   }),
