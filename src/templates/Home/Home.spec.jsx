@@ -7,7 +7,7 @@ import { theme } from '../../styles/theme';
 
 describe('<Home />', () => {
   it('should render', () => {
-    const { debug } = renderTheme(<Home />);
+    renderTheme(<Home />);
     const headingContainer = screen.getByRole('heading', { name: 'Hello' }).parentElement;
 
     expect(headingContainer).toHaveStyle({

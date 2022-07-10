@@ -14,6 +14,7 @@ export default {
 };
 
 export const Dark = (args) => <Heading {...args}></Heading>;
+
 Dark.args = { children: 'Texto claro', colorDark: false };
 Dark.parameters = {
   backgrounds: {
@@ -32,4 +33,4 @@ Light.parameters = {
 };
 
 export const Uppercase = (args) => <Heading {...args}></Heading>;
-Dark.args = { uppercase: true };
+Uppercase.args = { uppercase: true };

@@ -2,7 +2,7 @@
 
 exports[`<Home /> should render 1`] = `
 .c0 {
-  background: red;
+  background: #0a1128;
 }
 
 <div
