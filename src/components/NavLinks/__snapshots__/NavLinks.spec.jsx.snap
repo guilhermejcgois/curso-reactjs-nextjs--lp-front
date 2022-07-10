@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavLinks /> should match snapshots 1`] = `
+Array [
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target1"
+    role="link"
+    target="_self"
+  >
+    link 1
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target2"
+    role="link"
+    target="_self"
+  >
+    link 2
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target3"
+    role="link"
+    target="_self"
+  >
+    link 3
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target4"
+    role="link"
+    target="_self"
+  >
+    link 4
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target5"
+    role="link"
+    target="_self"
+  >
+    link 5
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target6"
+    role="link"
+    target="_self"
+  >
+    link 6
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target7"
+    role="link"
+    target="_self"
+  >
+    link 7
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target8"
+    role="link"
+    target="_self"
+  >
+    link 8
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target9"
+    role="link"
+    target="_self"
+  >
+    link 9
+  </a>,
+  .c0 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #0a1128;
+  position: relative;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width:768px) {
+
+}
+
+<a
+    class="c0"
+    href="#target10"
+    role="link"
+    target="_self"
+  >
+    link 10
+  </a>,
+]
+`;
