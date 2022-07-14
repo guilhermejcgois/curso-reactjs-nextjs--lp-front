@@ -1,10 +1,10 @@
 import P from 'prop-types';
 import React from 'react';
 import * as Styled from './styles';
-import { MenuLink } from '../MenuLink/MenuLink';
+import { MenuLink } from '../MenuLink';
 
 export const NavLinks = ({ links = [] }) => (
-  <Styled.Container>
+  <Styled.Container aria-label="Main menu">
     {links.map((link) => (
       <MenuLink key={link.link} {...link} />
     ))}

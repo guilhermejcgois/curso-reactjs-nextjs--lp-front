@@ -1,1 +1,1 @@
-export * from './MenuLink';
+export * from './NavLinks';

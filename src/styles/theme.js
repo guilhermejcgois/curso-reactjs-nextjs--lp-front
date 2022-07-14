@@ -7,7 +7,8 @@ export const theme = {
     darkBg: '#0a1128',
     primaryColor: '#0a1128',
     secondaryColor: '#dc143c',
-    white: `#ffffff`,
+    white: '#ffffff',
+    mediumGray: ' #dddddd',
   },
   font: {
     family: {
