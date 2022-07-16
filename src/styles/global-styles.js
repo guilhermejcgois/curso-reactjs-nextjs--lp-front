@@ -15,10 +15,24 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
       font-size: 1.6rem;
-      font-family: ${({ theme }) => theme.font.family.default}
+      font-family: ${({ theme }) => theme.font.family.default};
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: ${({ theme }) => theme.font.family.secondary}
+      font-family: ${({ theme }) => theme.font.family.secondary};
+      margin: ${({ theme }) => theme.spacing.large} 0;
+    }
+
+    p {
+      margin: ${({ theme }) => theme.spacing.medium} 0;
+    }
+
+    ol, ul {
+      margin: ${({ theme }) => theme.spacing.medium};
+      padding: ${({ theme }) => theme.spacing.medium};
+    }
+
+    a {
+      color: ${({ theme }) => theme.colors.secondaryColor};
     }
 `;
