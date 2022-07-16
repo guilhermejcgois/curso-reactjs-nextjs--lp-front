@@ -3,9 +3,9 @@ import React from 'react';
 import * as Styled from './styles';
 
 export const Heading = ({ children, colorDark = true, as = 'h1', size = 'big', uppercase = false }) => (
-  <Styled.title colorDark={colorDark} as={as} size={size} uppercase={uppercase}>
+  <Styled.Title colorDark={colorDark} as={as} size={size} uppercase={uppercase}>
     {children}
-  </Styled.title>
+  </Styled.Title>
 );
 
 Heading.propTypes = {
