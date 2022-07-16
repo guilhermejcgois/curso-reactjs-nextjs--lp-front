@@ -8,14 +8,14 @@ import * as styled from './styles';
 export const GridText = ({ title, description, grid, background = false }) => (
   <SectionBackground background={background}>
     <styled.Container>
-      <Heading size="huge" colorDark={!background} uppercase>
+      <Heading size="huge" colorDark={!background} uppercase as="h2">
         {title}
       </Heading>
       <TextComponent>{description}</TextComponent>
       <styled.Grid>
         {grid.map((el, i) => (
           <styled.GridElement key={i}>
-            <Heading size="medium" colorDark={!background}>
+            <Heading size="medium" colorDark={!background} as="h3">
               {el.title}
             </Heading>
             <TextComponent>{el.description}</TextComponent>

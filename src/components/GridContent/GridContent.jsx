@@ -8,7 +8,7 @@ import * as styled from './styles';
 export const GridContent = ({ title, html, background = false }) => (
   <SectionBackground background={background}>
     <styled.Container>
-      <Heading colorDark={!background} uppercase>
+      <Heading colorDark={!background} uppercase as="h2">
         {title}
       </Heading>
       <styled.Html>
