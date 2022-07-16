@@ -6,13 +6,13 @@ import { MenuLink } from './MenuLink';
 
 describe('<MenuLink />', () => {
   it('should render a link', () => {
-    renderTheme(<MenuLink href="http://localhost">Children</MenuLink>);
+    renderTheme(<MenuLink link="http://localhost">Children</MenuLink>);
     expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute('target', '_self');
   });
 
   it('should render open in a new tab', () => {
     renderTheme(
-      <MenuLink href="http://localhost" newTab={true}>
+      <MenuLink link="http://localhost" newTab={true}>
         Children
       </MenuLink>,
     );
@@ -21,7 +21,7 @@ describe('<MenuLink />', () => {
 
   it('should match snapshot', () => {
     renderTheme(
-      <MenuLink href="http://localhost" newTab={true}>
+      <MenuLink link="http://localhost" newTab={true}>
         Children
       </MenuLink>,
     );
@@ -55,6 +55,7 @@ describe('<MenuLink />', () => {
 
       <a
         class="c0"
+        href="http://localhost"
         role="link"
         target="_blank"
       >

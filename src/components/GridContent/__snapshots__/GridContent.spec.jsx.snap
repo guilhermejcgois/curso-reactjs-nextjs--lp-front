@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GridContent /> should render 1`] = `
+exports[`<GridContent /> should render grid content with background 1`] = `
 .c3 {
-  color: #0a1128;
+  color: #ffffff;
   font-size: 5.6rem;
   text-transform: uppercase;
 }
@@ -16,6 +16,8 @@ exports[`<GridContent /> should render 1`] = `
 .c0 {
   background: #ffffff;
   color: #0a1128;
+  background: #0a1128;
+  color: #ffffff;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -164,7 +166,7 @@ exports[`<GridContent /> should render 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> should render grid content 1`] = `
+exports[`<GridContent /> should render grid content without background 1`] = `
 .c3 {
   color: #0a1128;
   font-size: 5.6rem;
