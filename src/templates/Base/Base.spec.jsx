@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Home } from './Home';
 import { renderTheme } from '../../styles/render-theme';
 
-describe('<Home />', () => {
+import { Base } from './Base';
+import { mockBase } from './mock';
+
+describe('<Base />', () => {
   it('should render', () => {
-    const { container } = renderTheme(<Home />);
+    const { container } = renderTheme(<Base {...mockBase} />);
     expect(container).toMatchSnapshot();
   });
 });

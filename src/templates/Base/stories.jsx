@@ -1,0 +1,18 @@
+import React from 'react';
+import { Base } from './Base';
+
+import { mockBase } from './mock';
+
+export default {
+  title: 'Templates/Base',
+  component: Base,
+  args: mockBase,
+};
+
+export const Template = (args) => {
+  return (
+    <div>
+      <Base {...args} />
+    </div>
+  );
+};

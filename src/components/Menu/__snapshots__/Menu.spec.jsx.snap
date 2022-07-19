@@ -7,7 +7,7 @@ exports[`Menu should not render links 1`] = `
   overflow: hidden;
 }
 
-.c6 {
+.c7 {
   color: #0a1128;
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -38,7 +38,7 @@ exports[`Menu should not render links 1`] = `
   padding-bottom: 0;
 }
 
-.c2 {
+.c2 .c6 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -77,7 +77,7 @@ exports[`Menu should not render links 1`] = `
   height: 2.5rem;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -91,11 +91,11 @@ exports[`Menu should not render links 1`] = `
   color: inherit;
 }
 
-.c7 > img {
+.c8 > img {
   max-height: 3rem;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -124,7 +124,7 @@ exports[`Menu should not render links 1`] = `
     overflow-y: auto;
   }
 
-  .c2 {
+  .c2 .c6 {
     padding-bottom: 3.2rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -163,7 +163,7 @@ exports[`Menu should not render links 1`] = `
 }
 
 @media (max-width:768px) {
-  .c8 {
+  .c9 {
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
@@ -206,10 +206,10 @@ exports[`Menu should not render links 1`] = `
         class="c5"
       >
         <h1
-          class="c6"
+          class="c6 c7"
         >
           <a
-            class="c7"
+            class="c8"
             href="#target"
           >
             <span>
@@ -219,7 +219,7 @@ exports[`Menu should not render links 1`] = `
         </h1>
         <nav
           aria-label="Main menu"
-          class="c8"
+          class="c9"
         />
       </div>
     </div>
@@ -234,7 +234,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   overflow: hidden;
 }
 
-.c6 {
+.c7 {
   color: #0a1128;
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -265,7 +265,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   padding-bottom: 0;
 }
 
-.c2 {
+.c2 .c6 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -304,7 +304,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   height: 2.5rem;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -318,11 +318,11 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   color: inherit;
 }
 
-.c7 > img {
+.c8 > img {
   max-height: 3rem;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -332,7 +332,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   flex-flow: row-wrap;
 }
 
-.c9 {
+.c10 {
   display: block;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -342,7 +342,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   position: relative;
 }
 
-.c9::after {
+.c10::after {
   content: '';
   position: absolute;
   bottom: 0.75rem;
@@ -354,7 +354,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c9:hover::after {
+.c10:hover::after {
   left: 25%;
   width: 50%;
 }
@@ -378,7 +378,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
     overflow-y: auto;
   }
 
-  .c2 {
+  .c2 .c6 {
     padding-bottom: 3.2rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -417,7 +417,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
 }
 
 @media (max-width:768px) {
-  .c8 {
+  .c9 {
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
@@ -460,10 +460,10 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
         class="c5"
       >
         <h1
-          class="c6"
+          class="c6 c7"
         >
           <a
-            class="c7"
+            class="c8"
             href="#target"
           >
             <span>
@@ -473,10 +473,10 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
         </h1>
         <nav
           aria-label="Main menu"
-          class="c8"
+          class="c9"
         >
           <a
-            class="c9"
+            class="c10"
             href="#target1"
             role="link"
             target="_self"
@@ -484,7 +484,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 1
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target2"
             role="link"
             target="_self"
@@ -492,7 +492,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 2
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target3"
             role="link"
             target="_self"
@@ -500,7 +500,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 3
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target4"
             role="link"
             target="_self"
@@ -508,7 +508,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 4
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target5"
             role="link"
             target="_self"
@@ -516,7 +516,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 5
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target6"
             role="link"
             target="_self"
@@ -524,7 +524,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 6
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target7"
             role="link"
             target="_self"
@@ -532,7 +532,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 7
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target8"
             role="link"
             target="_self"
@@ -540,7 +540,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 8
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target9"
             role="link"
             target="_self"
@@ -548,7 +548,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
             link 9
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target10"
             role="link"
             target="_self"

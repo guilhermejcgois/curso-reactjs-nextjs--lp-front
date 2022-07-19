@@ -67,6 +67,12 @@ exports[`<GridText /> should render grid section with background 1`] = `
   transform: rotate(5deg);
 }
 
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
+  }
+}
+
 <div>
   <div
     class="c0"
@@ -202,6 +208,12 @@ exports[`<GridText /> should render grid section without background 1`] = `
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
+  }
 }
 
 <div>

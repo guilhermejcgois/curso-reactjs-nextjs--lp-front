@@ -1,1 +1,1 @@
-export * from './GridSection';
+export * from './GridText';
