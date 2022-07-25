@@ -17,6 +17,7 @@ exports[`<GridText /> should render grid section with background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -76,6 +77,7 @@ exports[`<GridText /> should render grid section with background 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -162,6 +164,7 @@ exports[`<GridText /> should render grid section without background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -219,6 +222,7 @@ exports[`<GridText /> should render grid section without background 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"

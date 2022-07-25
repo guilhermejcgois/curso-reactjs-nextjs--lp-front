@@ -9,6 +9,7 @@ exports[`<Base /> should render 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c16 {
@@ -167,7 +168,7 @@ exports[`<Base /> should render 1`] = `
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -482,6 +483,7 @@ exports[`<Base /> should render 1`] = `
   >
     <div
       class="c12"
+      id=""
     >
       <div
         class="c3 c4"
@@ -550,6 +552,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
+      id=""
     >
       <div
         class="c3 c4"
@@ -618,6 +621,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
+      id=""
     >
       <div
         class="c3 c4"
@@ -686,6 +690,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
+      id=""
     >
       <div
         class="c3 c4"
@@ -754,6 +759,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
+      id=""
     >
       <div
         class="c3 c4"
@@ -822,6 +828,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
+      id=""
     >
       <div
         class="c3 c4"

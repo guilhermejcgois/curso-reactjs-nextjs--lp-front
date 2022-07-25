@@ -45,7 +45,7 @@ describe('<LogoLink />', () => {
       }
 
       .c1 > img {
-        max-height: 3rem;
+        height: 3rem;
       }
 
       <h1
