@@ -37,10 +37,7 @@
           "provider": "cloudinary",
           "width": 1030,
           "height": 730,
-          "related": [
-            "602fdf2d540c00269e056178",
-            "602fdf2d540c00269e056172"
-          ],
+          "related": ["602fdf2d540c00269e056178", "602fdf2d540c00269e056172"],
           "createdAt": "2021-02-19T15:41:31.808Z",
           "updatedAt": "2021-02-19T15:54:22.590Z",
           "__v": 0,
@@ -148,9 +145,7 @@
                 }
               },
               "provider": "cloudinary",
-              "related": [
-                "602fdf2d540c00269e056183"
-              ],
+              "related": ["602fdf2d540c00269e056183"],
               "createdAt": "2021-02-19T15:50:15.686Z",
               "updatedAt": "2021-02-19T15:54:21.862Z",
               "__v": 0,
@@ -195,9 +190,7 @@
                 }
               },
               "provider": "cloudinary",
-              "related": [
-                "602fdf2d540c00269e056184"
-              ],
+              "related": ["602fdf2d540c00269e056184"],
               "createdAt": "2021-02-19T15:50:15.760Z",
               "updatedAt": "2021-02-19T15:54:21.980Z",
               "__v": 0,
@@ -242,9 +235,7 @@
                 }
               },
               "provider": "cloudinary",
-              "related": [
-                "602fdf2d540c00269e056185"
-              ],
+              "related": ["602fdf2d540c00269e056185"],
               "createdAt": "2021-02-19T15:50:15.821Z",
               "updatedAt": "2021-02-19T15:54:21.968Z",
               "__v": 0,
@@ -289,9 +280,7 @@
                 }
               },
               "provider": "cloudinary",
-              "related": [
-                "602fdf2d540c00269e056186"
-              ],
+              "related": ["602fdf2d540c00269e056186"],
               "createdAt": "2021-02-19T15:50:15.861Z",
               "updatedAt": "2021-02-19T15:54:21.887Z",
               "__v": 0,
@@ -336,9 +325,7 @@
                 }
               },
               "provider": "cloudinary",
-              "related": [
-                "602fdf2d540c00269e056187"
-              ],
+              "related": ["602fdf2d540c00269e056187"],
               "createdAt": "2021-02-19T15:50:15.979Z",
               "updatedAt": "2021-02-19T15:54:21.992Z",
               "__v": 0,
@@ -383,9 +370,7 @@
                 }
               },
               "provider": "cloudinary",
-              "related": [
-                "602fdf2d540c00269e056188"
-              ],
+              "related": ["602fdf2d540c00269e056188"],
               "createdAt": "2021-02-19T15:50:15.975Z",
               "updatedAt": "2021-02-19T15:54:21.989Z",
               "__v": 0,
@@ -492,10 +477,7 @@
           "provider": "cloudinary",
           "width": 1030,
           "height": 730,
-          "related": [
-            "602fdf2d540c00269e056178",
-            "602fdf2d540c00269e056172"
-          ],
+          "related": ["602fdf2d540c00269e056178", "602fdf2d540c00269e056172"],
           "createdAt": "2021-02-19T15:41:31.808Z",
           "updatedAt": "2021-02-19T15:54:22.590Z",
           "__v": 0,
@@ -577,9 +559,7 @@
         "provider": "cloudinary",
         "width": 47,
         "height": 9,
-        "related": [
-          "602fdf30540c00269e0561ae"
-        ],
+        "related": ["602fdf30540c00269e0561ae"],
         "createdAt": "2021-02-19T15:32:26.947Z",
         "updatedAt": "2021-02-19T15:54:25.379Z",
         "__v": 0,
