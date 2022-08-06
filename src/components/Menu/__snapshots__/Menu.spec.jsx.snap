@@ -21,7 +21,7 @@ exports[`Menu should not render links 1`] = `
 }
 
 .c2 {
-  position: 0;
+  position: absolute;
   z-index: 5;
   top: 0;
   left: 0;
@@ -249,7 +249,7 @@ exports[`Menu should render Logo and Main Menu Nav 1`] = `
 }
 
 .c2 {
-  position: 0;
+  position: absolute;
   z-index: 5;
   top: 0;
   left: 0;

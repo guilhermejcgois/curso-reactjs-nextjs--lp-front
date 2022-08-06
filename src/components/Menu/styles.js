@@ -9,7 +9,7 @@ const menuVisible = () => css`
 
 export const Container = styled.div`
   ${({ visible, theme }) => css`
-    position: 0;
+    position: absolute;
     z-index: 5;
     top: 0;
     left: 0;
