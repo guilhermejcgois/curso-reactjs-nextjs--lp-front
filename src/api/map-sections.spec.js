@@ -52,7 +52,11 @@ describe('map-sections', () => {
         section_id: 'home',
       },
       image: {
-        url: 'a.svg',
+        data: {
+          attributes: {
+            url: 'a.svg',
+          },
+        },
       },
     });
 
