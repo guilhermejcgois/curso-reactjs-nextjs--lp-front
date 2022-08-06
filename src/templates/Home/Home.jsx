@@ -25,10 +25,19 @@ export const Home = () => {
       const slug = pathname ? pathname : config.defaultSlug;
 
       try {
-        const res = await fetch(config.url + slug);
+        let url = `${config.url}/api/pages/?filters[slug]=${slug}`;
+        url += '&populate[0]=*';
+        url += '&populate[1]=menu.menu_links';
+        url += '&populate[2]=sections.metadata';
+        url += '&populate[3]=sections.image_grid';
+        url += '&populate[4]=sections.text_grid';
+        url += '&populate[5]=sections.image';
+
+        const res = await fetch(url);
         const json = await res.json();
         const { attributes } = json.data[0];
         const pageData = mapData([attributes]);
+        console.log({ attributes, pageData });
         setData(() => pageData[0]);
       } catch (e) {
         console.error(e);
@@ -37,7 +46,7 @@ export const Home = () => {
     };
 
     load();
-  });
+  }, []);
 
   useEffect(() => {
     if (data === undefined) {
@@ -69,6 +78,7 @@ export const Home = () => {
       {sections.map((section, index) => {
         const { component } = section;
         const key = `${slug}-${index}`;
+        console.log({ component, key });
 
         if (component === 'section.section-two-columns') {
           return <GridTwoColumns key={key} {...section} />;
