@@ -46,7 +46,7 @@ export const Home = () => {
     };
 
     load();
-  }, []);
+  }, [location.pathname]);
 
   useEffect(() => {
     if (data === undefined) {
